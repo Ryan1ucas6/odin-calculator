@@ -5,11 +5,11 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #e5e5e5;
+    background-color: #bebdbd;
 }
 
 .calculator {
-    background-color: #fff;
+    background-color: #949191;
     border: 2px solid black;
     border-radius: 10px;
     padding: 20px;
@@ -55,4 +55,8 @@ button {
 
 button:hover {
     background-color: #ddd;
+}
+
+.clear, .equal {
+    background-color: orange;
 }
